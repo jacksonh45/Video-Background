@@ -20,5 +20,65 @@ h1{
 
 a{
     text-decoration: none;
-    color: firebrick;
+    color:#4b5163;
+}
+
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+#video-container{
+     background-image: url("cover.png");
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-position: center;
+     background-size: cover;
+}
+
+video{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+object-fit: cover;
+}
+
+#cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#content{
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+#click{
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid cyan;
+    padding: 10px 30px;
+    background-color: #4b5163;
+    color: red;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+#click:hover{
+    transform: scale(.95);
 }
