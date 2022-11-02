@@ -82,3 +82,23 @@ object-fit: cover;
 #click:hover{
     transform: scale(.95);
 }
+
+#about{
+    padding: 50px;
+    text-align: center;
+}
+
+#about p{
+font-size: 20px;
+max-width: 500px;
+margin: auto;
+}
+
+#about h2{
+    margin: 40px;
+    color: #4b5163;
+}
+i{
+    font-size: 48px;
+    margin: 0 5px;
+}
